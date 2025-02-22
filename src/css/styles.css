@@ -1,0 +1,85 @@
+/**
+  |============================
+  | include css partials with
+  | default @import url()
+  |============================
+*/
+@import url('./reset.css');
+@import url('./header.css');
+@import url('./hero.css');
+@import url('./about-me.css');
+@import url('./tech-skills.css');
+@import url('./my-projects.css');
+@import url('./benefits.css');
+@import url('./faq.css');
+@import url('./reviews.css');
+@import url('./work-together.css');
+@import url('./footer.css');
+
+:root {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color: #242424;
+  background-color: rgba(255, 255, 255, 0.87);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --black: #292929;
+  --accent-green: #00B068;
+  --white: #F0F0F0;
+  --light-grey: #E4E5E6;
+  --light-accent: #BCDFD1;
+
+  --transition: 250ms ease-in-out;
+}
+
+@font-face {
+  font-family: 'Impact', Arial, sans-serif;
+  src: url('../css/fonts/impact.woff2') format('woff2'),
+       url('../css/fonts/impact.woff') format('woff');
+}
+
+.title {
+  font-family: 'Impact';
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--black);
+}
+
+.container {
+  max-width: 375px;
+  margin: 0 auto;
+  padding: 80px 20px 0 20px;
+}
+
+@media screen and (min-width:768px) {
+  .container {
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 124px 32px 0 32px;
+  }
+}
+
+@media screen and (min-width:1280px) {
+  .container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 164px 32px 0 32px;
+  }
+}
+
+.dark-mode {
+  background-color: #1e2023;
+  /* color: white; */
+}
+
+html {
+  scroll-behavior: smooth;
+}
