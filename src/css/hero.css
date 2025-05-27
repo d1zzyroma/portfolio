@@ -275,7 +275,7 @@
     .hero-img {
         width: 592px;
         height: 444px;
-        background-image: url(../img/hero/hero-img.jpg);
+        background-image: url(../img/hero/1.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         border-radius: 32px;
@@ -290,7 +290,7 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
         .hero-img {
-            background-image: url(../img/hero/hero-img@2x.jpg);
+            background-image: url(../img/hero/1.jpg);
         }
     }
 
