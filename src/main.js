@@ -1,8 +1,8 @@
-import '../src/js/my-projects';
-import '../src/js/faq';
-import '../src/js/header';
-import '../src/js/reviews';
-import '../src/js/work-together';
+import './js/my-projects';
+import './js/faq';
+import './js/header';
+import './js/reviews';
+import './js/work-together';
 
 const darkBtn = document.querySelector('.night-mode-checkbox');
 const sections = document.querySelectorAll('section');
