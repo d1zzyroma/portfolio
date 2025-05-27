@@ -4,17 +4,17 @@
   | default @import url()
   |============================
 */
-@import url('./reset.css');
-@import url('./header.css');
-@import url('./hero.css');
-@import url('./about-me.css');
-@import url('./tech-skills.css');
-@import url('./my-projects.css');
-@import url('./benefits.css');
-@import url('./faq.css');
-@import url('./reviews.css');
-@import url('./work-together.css');
-@import url('./footer.css');
+@import url('../css/reset.css');
+@import url('../css/header.css');
+@import url('../css/hero.css');
+@import url('../css/about-me.css');
+@import url('../css/tech-skills.css');
+@import url('../css/my-projects.css');
+@import url('../css/benefits.css');
+@import url('../css/faq.css');
+@import url('../css/reviews.css');
+@import url('../css/work-together.css');
+@import url('../css/footer.css');
 
 :root {
   font-family: "Poppins", sans-serif;
