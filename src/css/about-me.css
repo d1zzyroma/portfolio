@@ -7,6 +7,7 @@
   text-transform: uppercase;
   color: #292929;
   margin-bottom: 40px;
+  color: blue;
 }
 
 .dark-mode .title,
@@ -17,7 +18,7 @@
 }
 
 .title-span {
-  color: #00b068;
+  color: yellow;
 }
 
 .cont-img-bio {
@@ -88,7 +89,13 @@
   align-self: center;
   margin: 10px;
 }
-
+.cont-title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
 .last-three {
   margin: 10px 6px;
 }
@@ -227,5 +234,12 @@
 
   .cont-role {
     width: 384px;
+  }
+  .cont-title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
   }
 }
