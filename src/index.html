@@ -2,9 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" href="./img/header/logo.svg">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio-Group-13</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -12,15 +11,143 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <!-- Основні мета-теги -->
+  <title>Seattle Pro Painting | Interior & Exterior Painters in Seattle</title>
+  <meta name="description" content="Professional interior and exterior painting services in Seattle. Trusted local painters for homes, offices, and commercial spaces. Free estimates!">
+  <meta name="keywords" content="Seattle painting, interior painting Seattle, exterior painting Seattle, Seattle painters, house painting, commercial painting, Seattle painting company">
+  <meta name="author" content="Seattle Pro Painting">
+
+  <!-- Open Graph для Facebook та соціальних мереж -->
+
+  <!-- Twitter Card -->
+
+
+  <!-- Viewport для адаптивності -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Favicon -->
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
   </head>
   <body>
     <header>
-      <load src="./partials/header.html" />
+      <section>
+        <div class="header">
+          <div class="header-container">
+            <div class="header-logo">
+              <a class="logo" href="index.html"
+                >O & P<span class="color-primary">Painting.</span></a
+              >
+            </div>
+      
+            <div class="header-burger">
+              <button class="burger" type="button">
+                <span></span>
+                <span></span>
+                <span></span>
+              </button>
+            </div>
+            <div class="header-nav">
+              <div class="night-mode night-mode-tablet-pc">
+                <input type="checkbox" class="night-mode-checkbox" />
+              </div>
+              <nav class="nav-menu">
+                <ul class="nav-menu-list">
+                  <li class="nav-menu-item"><a href="#about_me">About Us</a></li>
+                  <li class="nav-menu-item"><a href="#projects">Projects</a></li>
+                  <li class="nav-menu-item"><a href="#work-together">Contacts</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </section>
     </header>
 
     <main>
-      <load src="./partials/hero.html" />
-      <load src="./partials/about-me.html" />
+      <section class="hero-section">
+        <div class="container-hero">
+          <svg class="background-decorative background-1" width="170" height="131">
+            <use href="./img/hero/hero-icons.svg#icon-decorative-1"></use>
+          </svg>
+      
+          <svg class="background-decorative background-2" width="356" height="276">
+            <use href="./img/hero/hero-icons.svg#icon-decorative-2"></use>
+          </svg>
+      
+          <div class="main-content">
+            <h1 class="hero-title">Hello, We Are <span>Painting company</span></h1>
+            <div class="hero-img"></div>
+          </div>
+      
+          <div class="content-container">
+            <div class="order-container">
+              <svg class="order-icon" width="28">
+                <use href="./img/hero/hero-icons.svg#icon-arrow-iconsvg"></use>
+              </svg>
+              <a href="#work-together" class="link-to-order">Order a service</a>
+              <div class="decorative"></div>
+            </div>
+      
+            <p class="hero-article">
+              We work with clients across Seattle, Washington to deliver
+              <span>high-quality</span> and <span>professional painting services</span>
+              that reflect each client’s unique vision and style.
+            </p>
+          </div>
+        </div>
+      
+        <div class="social-links">
+          <ul class="social-links-list">
+            <li class="social-links-item">
+              <a href="https://maps.app.goo.gl/ZmcVqmb4XmmyG5MA8?g_st=ic" target="_blank"
+                >Map</a
+              >
+            </li>
+            <li class="social-links-item">
+              <a href="#" target="_blank"
+                >Facebook</a
+              >
+            </li>
+      
+          </ul>
+        </div>
+      </section>
+      
+      <section id="about_me">
+        <div class="container">
+          <h2 class="title">ABOUT <span class="title-span">Us</span></h2>
+          <div class="cont-img-bio">
+            <div class="cont-image">
+              <img src="../img/about-me/2.jpg" alt="">
+            </div>
+      
+            <div class="cont-bio">
+              <h3 class="title-three">BIO</h3>
+            <ul class="skills-list">
+              <li>
+                <p class="skills-list-text">
+                  We are a professional painting company based in Seattle, Washington, specializing in delivering 
+                  <span>high-quality residential and commercial painting services</span>. Our team brings years of experience, attention to detail, and a passion for transforming spaces with color and precision.
+                </p>
+              </li>
+              <li>
+                <p class="skills-list-text">
+                  We pride ourselves on being <span>reliable, efficient, and easy to work with</span>. Whether working on interior or exterior projects, we maintain the highest standards of quality and customer satisfaction. 
+                  Constantly improving our skills and techniques, we stay updated with the latest trends and materials in the painting industry to ensure beautiful, lasting results for every client.
+                </p>
+              </li>
+            </ul>
+      
+              </ul>
+              <!-- <div class="background-image"></div> -->
+            </div>
+          </div>
+      
+      
+        </div>
+      </section>
+      
       <load src="./partials/tech-skills.html" />
       <load src="./partials/my-projects.html" />
       <load src="./partials/benefits.html" />
